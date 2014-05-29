@@ -21,6 +21,9 @@
 		DCBEBFC819365EE400E3F9C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBEBFAA19365EE400E3F9C1 /* UIKit.framework */; };
 		DCBEBFD019365EE500E3F9C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCBEBFCE19365EE500E3F9C1 /* InfoPlist.strings */; };
 		DCBEBFD219365EE500E3F9C1 /* GetOnThebusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBEBFD119365EE500E3F9C1 /* GetOnThebusTests.m */; };
+		DCBEBFDC19365F1700E3F9C1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBEBFDB19365F1700E3F9C1 /* MapKit.framework */; };
+		DCBEBFDF19366EEB00E3F9C1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBEBFDE19366EEB00E3F9C1 /* DetailViewController.m */; };
+		DCBEBFE219368A6900E3F9C1 /* MKCustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBEBFE119368A6900E3F9C1 /* MKCustomAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		DCBEBFCD19365EE500E3F9C1 /* GetOnThebusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetOnThebusTests-Info.plist"; sourceTree = "<group>"; };
 		DCBEBFCF19365EE500E3F9C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCBEBFD119365EE500E3F9C1 /* GetOnThebusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnThebusTests.m; sourceTree = "<group>"; };
+		DCBEBFDB19365F1700E3F9C1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DCBEBFDD19366EEB00E3F9C1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DCBEBFDE19366EEB00E3F9C1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DCBEBFE019368A6900E3F9C1 /* MKCustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCustomAnnotation.h; sourceTree = "<group>"; };
+		DCBEBFE119368A6900E3F9C1 /* MKCustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCustomAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCBEBFDC19365F1700E3F9C1 /* MapKit.framework in Frameworks */,
 				DCBEBFA919365EE400E3F9C1 /* CoreGraphics.framework in Frameworks */,
 				DCBEBFAB19365EE400E3F9C1 /* UIKit.framework in Frameworks */,
 				DCBEBFA719365EE400E3F9C1 /* Foundation.framework in Frameworks */,
@@ -82,6 +91,10 @@
 		DCBEBF9A19365EE400E3F9C1 = {
 			isa = PBXGroup;
 			children = (
+				DCBEBFE019368A6900E3F9C1 /* MKCustomAnnotation.h */,
+				DCBEBFE119368A6900E3F9C1 /* MKCustomAnnotation.m */,
+				DCBEBFDD19366EEB00E3F9C1 /* DetailViewController.h */,
+				DCBEBFDE19366EEB00E3F9C1 /* DetailViewController.m */,
 				DCBEBFAC19365EE400E3F9C1 /* GetOnThebus */,
 				DCBEBFCB19365EE500E3F9C1 /* GetOnThebusTests */,
 				DCBEBFA519365EE400E3F9C1 /* Frameworks */,
@@ -101,6 +114,7 @@
 		DCBEBFA519365EE400E3F9C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DCBEBFDB19365F1700E3F9C1 /* MapKit.framework */,
 				DCBEBFA619365EE400E3F9C1 /* Foundation.framework */,
 				DCBEBFA819365EE400E3F9C1 /* CoreGraphics.framework */,
 				DCBEBFAA19365EE400E3F9C1 /* UIKit.framework */,
@@ -252,6 +266,8 @@
 				DCBEBFBD19365EE400E3F9C1 /* ViewController.m in Sources */,
 				DCBEBFB719365EE400E3F9C1 /* AppDelegate.m in Sources */,
 				DCBEBFB319365EE400E3F9C1 /* main.m in Sources */,
+				DCBEBFDF19366EEB00E3F9C1 /* DetailViewController.m in Sources */,
+				DCBEBFE219368A6900E3F9C1 /* MKCustomAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

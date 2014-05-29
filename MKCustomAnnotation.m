@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MKCustomAnnotation.m
 //  GetOnThebus
 //
 //  Created by Joanne McNamee on 5/28/14.
 //  Copyright (c) 2014 JMWHS. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MKCustomAnnotation.h"
 
-@interface ViewController : UIViewController
-
-
+@implementation MKCustomAnnotation
 
 @end

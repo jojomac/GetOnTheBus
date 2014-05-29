@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  GetOnThebus
 //
 //  Created by Joanne McNamee on 5/28/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface DetailViewController : UIViewController
 
 @end
