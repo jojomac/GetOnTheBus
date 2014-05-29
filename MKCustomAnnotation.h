@@ -7,7 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MapKit/MKPointAnnotation.h>
 
-@interface MKCustomAnnotation : NSObject
+
+@interface MKCustomAnnotation : MKPointAnnotation
+
+@property  NSString *address;
+
+@property  NSString *routes;
+
+@property NSString *transfers;
+
+
+
+
 
 @end
